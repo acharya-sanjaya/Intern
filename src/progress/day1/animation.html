@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+        .primary-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+            border: 2px solid #007bff;
+            border-radius: 5px;
+            transition: all 3s linear;
+        }
+
+        .primary-btn:hover {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 20px 40px;
+        }
+
+        .hidden-box {
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            transition: visibility 3s ease-in-out;
+            visibility: hidden;
+        }
+
+        .none-box {
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            display: none;
+        }
+
+        .block-box {
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hidden-box">This is a hidden box</div>
+    <div class="none-box">This is a none box</div>
+    <div class="block-box">This is a block box</div>
+</body>
+
+
+</html>

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tasks-container {
+    border: 1px solid grey
+}
+
+.chapter-container {
+    margin-bottom: 40px;
+}
+
+.centered-heading {
+    text-align: center;
+    padding: 20px;
+}
+
+.task-box {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.task-box ul {
+    list-style-type: none;
+}
+
+.dim-green {
+    background-color: #e0ffe0;
+}
+
+.dim-red {
+    background-color: #ffe0e0;
+}
+
+.task-title {
+    display: inline;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.no-tasks {
+    text-align: center;
+    background-color: #fcc;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 50px;
+    word-spacing: 10px;
+}
