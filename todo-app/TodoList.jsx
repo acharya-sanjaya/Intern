@@ -54,10 +54,13 @@ const TodoList = () => {
     const handleCheckboxUpdate = (taskID) => {
         const newTaskList = taskList.map(chapter => ({
             ...chapter,
-            tasks: chapter.tasks.map(task => (task.TID === taskID ? { ...task, completed: !task.completed } : { ...task }))
+            tasks: chapter.tasks.map(task => (
+                task.TID === taskID ? { ...task, completed: !task.completed } : { ...task }
+            ))
         }));
+        setTaskList(newTaskList);
         localStorage.setItem("taskList", JSON.stringify(newTaskList));
-    }
+    };
 
     return (
         <div className="tasks-container">

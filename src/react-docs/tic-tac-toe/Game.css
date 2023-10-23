@@ -1,0 +1,63 @@
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-info {
+    margin-left: 20px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 4px;
+}
+
+.square {
+    font-size: 24px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: #f0f0f0;
+}
+
+/* Highlight the winning squares */
+.square.winner {
+    background-color: #aaffaa;
+}
+
+/* Game status styles */
+.game-info div {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Move list styles */
+.game-info ol {
+    padding: 0;
+}
+
+.game-info li {
+    margin-bottom: 5px;
+}
+
+.game-info button {
+    font-size: 14px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    text-decoration: underline;
+}
+
+.game-info button:hover {
+    color: #333;
+}

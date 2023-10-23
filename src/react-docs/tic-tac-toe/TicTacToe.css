@@ -1,0 +1,45 @@
+.game-container {
+    display: flex;
+    align-content: flex-start;
+    margin-left: 300px;
+    padding-top: 50px;
+}
+
+.board-container {
+    border: 3px solid black;
+    margin-right: 20px;
+    /* Adjust the margin for spacing */
+    height: 100%;
+    /* Set a fixed height or adjust as needed */
+}
+
+.board-container th {
+    height: 40px;
+    text-align: center;
+    color: red;
+    border-bottom: 3px solid black;
+}
+
+.square {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.history-table {
+    border-collapse: collapse;
+    align-self: flex-start;
+    margin-left: 20px;
+    border: 3px solid black;
+    height: 100%;
+    /* Set a fixed height or adjust as needed */
+}
+
+.history-table button {
+    width: 200px;
+}
+
+.history-table td {
+    border: 1px solid red;
+}
